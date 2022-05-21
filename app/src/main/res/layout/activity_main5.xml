@@ -5,7 +5,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity5"
+    tools:context=".StartGame"
     android:background="@color/white"
     android:gravity="center"
     android:padding="16dp"
@@ -23,7 +23,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="5dp"
-                app:srcCompat="@drawable/stopwatch"/>
+                />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -41,7 +41,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:srcCompat="@drawable/star"/>
+                />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -75,42 +75,50 @@
                 android:id="@+id/ivShowImage"
                 android:layout_margin="5dp"
                 tools:srcCompat="@drawable/n2"/>
+
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
                 android:id="@+id/btn1"
-                android:onClick="answerSelected"
-                android:textSize="32sp"
-                android:textColor="@color/white"
-                android:backgroundTint="@null"
-                android:layout_margin="2dp"/>
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:backgroundTint="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="answerSelected"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+            <Button
                 android:id="@+id/btn2"
-                android:onClick="answerSelected"
-                android:textSize="32sp"
-                android:textColor="@color/white"
-                android:backgroundTint="@null"
-                android:layout_margin="2dp"/>
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:backgroundTint="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="answerSelected"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+            <Button
                 android:id="@+id/btn3"
-                android:onClick="answerSelected"
-                android:textSize="32sp"
-                android:textColor="@color/white"
-                android:backgroundTint="@null"
-                android:layout_margin="2dp"/>
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/btn4"
-                android:onClick="answerSelected"
-                android:textSize="32sp"
-                android:textColor="@color/white"
+                android:layout_margin="2dp"
                 android:backgroundTint="@null"
-                android:layout_margin="2dp"/>
+                android:contentDescription="@string/app_name"
+                android:onClick="answerSelected"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
+
+            <Button
+                android:id="@+id/btn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:backgroundTint="@null"
+                android:contentDescription="@string/app_name"
+                android:onClick="answerSelected"
+                android:textColor="@color/white"
+                android:textSize="32sp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -130,8 +138,6 @@
                 android:textColor="@color/white"
                 android:backgroundTint="@null"
                 />
-
-
         </LinearLayout>
     </LinearLayout>
 

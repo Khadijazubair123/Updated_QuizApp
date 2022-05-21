@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity3 extends AppCompatActivity {
-    private Button dice1;
+    private Button  dice1;
     private  Button dice2;
     private  Button dice3;
     private  Button dice4;

@@ -9,16 +9,19 @@ import android.widget.Button;
 
 public class MainActivity4 extends AppCompatActivity {
 
-    private Button startButton;
+    Button startButton;
+    private Button btnStart;
+    private Button startbtn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
     }
 
-public void startButton(View view){
-        Intent intent=new Intent(MainActivity4.this,MainActivity5.class);
+        public void startButton(View view){
+        Intent intent=new Intent(MainActivity4.this, StartGame.class);
         startActivity(intent);
-}
+        }
+
 
 }
