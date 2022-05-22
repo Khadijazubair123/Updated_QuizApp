@@ -141,9 +141,11 @@ public class StartGame extends AppCompatActivity {
             points++;
             tvPoints.setText(points+"/"+techList.size());
             tvResult.setText("Correct");
+            startGame();
 
         }else {
             tvResult.setText("Wrong");
+            startGame();
         }
     }
 }
